@@ -1,17 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// import Counter from './App';
+ import Random from './random';
+// import Formcomponent from './Formomponent';
+// import Multiple from './multiple';
+//import Add from './add';
+const root =ReactDOM.createRoot(document.getElementById("root"))
+// function Changecompo(){
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//   var [myname,setmyname]=useState("john")
+//   function change(){
+//     setmyname("nabee")
+//   }
+//   return(<div>
+//     <h1>{myname}</h1>
+//     <button onClick={change
+//     }>chamge</button>
+//   </div>
+// )
+// }
+// root.render(<Changecompo></Changecompo>)
+// root.render(<Counter/>)
+
+// root.render(<Formcomponent/>)
+root.render(<Random/>)
